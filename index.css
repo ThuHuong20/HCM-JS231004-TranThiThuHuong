@@ -1,0 +1,119 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 100px;
+    -webkit-box-shadow: 5px 5px 11px 6px rgba(255, 206, 161, 0.29);
+    box-shadow: 5px 5px 11px 6px rgba(255, 206, 161, 0.29);
+}
+
+.form_container {
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.content_total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.content_text {
+    display: flex;
+    flex-direction: column;
+}
+
+.content_text p {
+    margin: 0;
+}
+
+#total-players,
+#total-points {
+    font-weight: bold;
+}
+
+.content_user_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.content_user_name {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.content_user_name p {
+    margin: 0;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.content_user_name i {
+    margin-right: 5px;
+    color: rgb(222, 219, 197);
+}
+
+.content_user_point {
+    display: flex;
+    align-items: center;
+}
+
+.content_user_point p {
+    margin: 0;
+    margin-right: 10px;
+}
+
+.content_user_point button {
+    padding: 5px 10px;
+    background-color: #e3e8ed;
+    color: black;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.content_user_point button:hover {
+    background-color: #c4e4a8;
+}
+
+.content_add_player {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#player {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.content_add_player button {
+    padding: 5px 10px;
+    background-color: #e7edeb;
+    color: black;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.content_add_player button:hover {
+    background-color: #3fcc94;
+}
+
+.bright-crown {
+    color: gold !important;
+}
